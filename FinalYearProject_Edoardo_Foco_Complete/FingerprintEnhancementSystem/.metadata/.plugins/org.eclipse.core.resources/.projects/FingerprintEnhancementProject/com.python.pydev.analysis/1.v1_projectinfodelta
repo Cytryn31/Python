@@ -1,0 +1,11 @@
+INSTUPOrientation
+/Users/Frog/Documents/workspace/PYTHON/FingerprintEnhancementProject/Orientation.py
+INFOS:&&1|1|1|0&&2|2|1|1&&3|3|1|4&&2|5|1|1&&3|3|1|6&&2|7|1|1&&2|8|1|1
+__init__=2
+Orientation=1
+reconstructImage=8
+Orientation.calculateOrientation=6
+calculateOrientation=5
+image=3
+Orientation.__init__=4
+decomposeImage=7

@@ -1,0 +1,7 @@
+MODULES_MANAGER_V2
+BlockThread|/Users/Frog/Documents/workspace/PYTHON/FingerprintEnhancementProject/BlockThread.py
+Filters|/Users/Frog/Documents/workspace/PYTHON/FingerprintEnhancementProject/Filters.py
+FingerprintEnhancementSystem|/Users/Frog/Documents/workspace/PYTHON/FingerprintEnhancementProject/FingerprintEnhancementSystem.py
+MeanStd_Norm|/Users/Frog/Documents/workspace/PYTHON/FingerprintEnhancementProject/MeanStd_Norm.py
+Orientation|/Users/Frog/Documents/workspace/PYTHON/FingerprintEnhancementProject/Orientation.py
+ThreadController|/Users/Frog/Documents/workspace/PYTHON/FingerprintEnhancementProject/ThreadController.py

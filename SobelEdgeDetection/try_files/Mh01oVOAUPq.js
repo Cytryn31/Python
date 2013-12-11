@@ -1,0 +1,5 @@
+/*1366990805,178142561*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["7mqVT"]); }
+
+__d("JewelFollowupUnit",["DOM","Arbiter","CSS","csx","copyProperties"],function(a,b,c,d,e,f){var g=b('DOM'),h=b('Arbiter'),i=b('CSS'),j=b('csx'),k=b('copyProperties');function l(m,n,o,p){this._followup=n;this._parentContainer=this._followup.parentElement;this._friendRequest=this._parentContainer.firstChild;o&&h.subscribe(o,function(r,s){(s.uid==m)&&this._showFollowup();}.bind(this));var q=g.scry(this._parentContainer,"._e7")[0];q&&(q.onclick=this._hideFollowup.bind(this));p&&h.subscribe(p,function(r,s){(s.uid==m)&&this._hideFollowup();}.bind(this));}k(l.prototype,{_showFollowup:function(){this._updateRequestAnimClass();i.addClass(this._followup,'active');i.addClass(this._parentContainer,'followupActivated');},_hideFollowup:function(){this._updateRequestAnimClass();i.removeClass(this._followup,'active');i.removeClass(this._parentContainer,'followupActivated');},_updateRequestAnimClass:function(){i.conditionClass(this._friendRequest,'animated',i.hasClass(this._followup,'animated'));}});e.exports=l;});

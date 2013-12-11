@@ -1,0 +1,167 @@
+!SESSION 2013-10-23 09:43:57.568 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Frog/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/Frog/Music/FinalYearProject_Edoardo_Foco_w1266346/FingerprintEnhancementSystem -keyring /Users/Frog/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-10-23 09:44:01.275
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2013-10-23 09:44:01.589
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-10-23 09:44:01.589
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7fac4f3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@986b0ee,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-10-23 09:44:09.953
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-10-23 09:44:09.953
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2013-10-23 09:44:09.953
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-10-23 09:44:09.953
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2013-10-23 09:44:09.953
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY com.aptana.shared_core 4 4 2013-10-23 09:45:58.719
+!MESSAGE Interpreter: python2 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python2 not found
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:445)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:1)
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1198)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:486)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:470)
+	at org.python.pydev.core.docutils.StringSubstitution.<init>(StringSubstitution.java:36)
+	at org.python.pydev.plugin.nature.PythonPathNature.getOnlyProjectPythonPathStr(PythonPathNature.java:170)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.aptana.shared_core 4 4 2013-10-23 09:45:58.800
+!MESSAGE Info: Rebuilding internal caches: /Users/Frog/Music/FinalYearProject_Edoardo_Foco_w1266346/FingerprintEnhancementSystem/.metadata/.plugins/org.eclipse.core.resources/.projects/FingerprintEnhancementProject/com.python.pydev.analysis/AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY com.aptana.shared_core 4 4 2013-10-23 12:43:54.382
+!MESSAGE Interpreter: python2 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python2 not found
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:445)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:1)
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1198)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:486)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:470)
+	at org.python.pydev.core.docutils.StringSubstitution.<init>(StringSubstitution.java:36)
+	at org.python.pydev.plugin.nature.PythonPathNature.getOnlyProjectPythonPathStr(PythonPathNature.java:170)
+	at org.python.pydev.editor.codecompletion.revisited.ProjectModulesManager.resolveModuleOnlyInProjectSources(ProjectModulesManager.java:241)
+	at org.python.pydev.plugin.nature.PythonNature.resolveModuleOnlyInProjectSources(PythonNature.java:973)
+	at org.python.pydev.plugin.nature.PythonNature.resolveModuleOnlyInProjectSources(PythonNature.java:292)
+	at com.python.pydev.analysis.builder.AnalysisParserObserver.analyze(AnalysisParserObserver.java:150)
+	at com.python.pydev.analysis.builder.AnalysisParserObserver.parserChanged(AnalysisParserObserver.java:138)
+	at org.python.pydev.parser.PyParser.fireParserChanged(PyParser.java:357)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:480)
+	at org.python.pydev.parser.ParserScheduler.reparseDocument(ParserScheduler.java:156)
+	at org.python.pydev.parser.ParsingThread.run(ParsingThread.java:51)
+!SESSION 2013-11-01 08:06:03.189 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Frog/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Frog/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2013-11-01 08:06:22.483
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-01 08:06:22.483
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@73f378c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@757ecdf0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY com.aptana.shared_core 4 4 2013-11-01 08:06:36.497
+!MESSAGE Interpreter: python2 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python2 not found
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:445)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:1)
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1198)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:486)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:470)
+	at org.python.pydev.core.docutils.StringSubstitution.<init>(StringSubstitution.java:36)
+	at org.python.pydev.plugin.nature.PythonPathNature.getOnlyProjectPythonPathStr(PythonPathNature.java:170)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2013-11-01 11:39:40.233 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/Frog/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Frog/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-01 11:39:52.941
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2013-11-01 11:39:54.367
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-01 11:39:54.367
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@23030dda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1d82752b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY com.aptana.shared_core 4 4 2013-11-01 11:40:03.187
+!MESSAGE Interpreter: python2 not found
+!STACK 0
+org.python.pydev.core.MisconfigurationException: Interpreter: python2 not found
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:445)
+	at org.python.pydev.ui.interpreters.AbstractInterpreterManager.getInterpreterInfo(AbstractInterpreterManager.java:1)
+	at org.python.pydev.plugin.nature.PythonNature.getProjectInterpreter(PythonNature.java:1198)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:486)
+	at org.python.pydev.plugin.nature.PythonPathNature.getVariableSubstitution(PythonPathNature.java:470)
+	at org.python.pydev.core.docutils.StringSubstitution.<init>(StringSubstitution.java:36)
+	at org.python.pydev.plugin.nature.PythonPathNature.getOnlyProjectPythonPathStr(PythonPathNature.java:170)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:135)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
